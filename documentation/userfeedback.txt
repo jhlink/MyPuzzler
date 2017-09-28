@@ -1,3 +1,5 @@
+## Set the Scene, User Test 1
+
 User Feedback:
 - Environment reminds user of a dungeon in Elder Scrolls or a very old Doom game.
 - The environment is looks noticeably blocky, especially the components that are placed together. 
@@ -12,3 +14,31 @@ User Feedback:
 Findings:
 - Should correct the placement of various assets so that they look naturally connected.
 - The gate should show another room or be sealed with a closed door, such that the blank horizon is hidden from the user. 
+
+## Graphical User Interfaces, User Test 2
+
+User Feedback:
+- Screens are big and noticeable.
+- Text is a bit fuzzy. 
+
+Findings:
+- Should increase pixel density of text.
+
+## Movement Mechanic, Pt. 1, User Test 3
+- Movement was just fine. Similar to a walking pace. 
+- No motion sickness was felt. 
+- There was nothing disorienting about the experience.
+- There was some disorientation when taking off the headset after trying the VR experience.
+- The height seems to be a bit short. 
+- UI Screens seem to be not aligned.
+
+Findings: 
+- When passing through the building, should adjust orbs, such that the player doesn't collide or go through them. 
+- Raise the height of the camera to better scale with the user's height.
+- Change atmosphere and lighting for a different mood and atmosphere. 
+- Adjust positioning of screens to center with entrance of dungeon and the camera.
+
+## Movement Mechanic, Pt. 2, User Test 4
+- New environment changes are great and make the experience feel more like a dungeon. 
+- No disorienting experiences.
+
