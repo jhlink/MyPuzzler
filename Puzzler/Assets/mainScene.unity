@@ -479,6 +479,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 62689033}
   m_Mesh: {fileID: 4300016, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &88205667 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
+  m_PrefabInternal: {fileID: 1442782092}
 --- !u!1001 &153658555
 Prefab:
   m_ObjectHideFlags: 0
@@ -526,6 +530,11 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114031882781898374, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 982249708}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_IsPrefabParent: 0
@@ -990,6 +999,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 225563319}
   m_Mesh: {fileID: 4300014, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &235602056 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
+  m_PrefabInternal: {fileID: 1424278541}
 --- !u!1 &238775457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,10 +2829,11 @@ Prefab:
       propertyPath: m_Name
       value: Dungeon Orb_BottomLeft
       objectReference: {fileID: 0}
-    - target: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
+    - target: {fileID: 114031882781898374, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 982249708}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_IsPrefabParent: 0
@@ -4098,6 +4112,11 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114031882781898374, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 982249708}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_IsPrefabParent: 0
@@ -4703,11 +4722,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 921133207}
+  eventSystem: {fileID: 1122702159}
   startUI: {fileID: 198245375}
   restartUI: {fileID: 1349403285}
   startPoint: {fileID: 2087192248}
   playPoint: {fileID: 1753882141}
   restartPoint: {fileID: 439042361}
+  puzzleSpheres:
+  - {fileID: 1394124291}
+  - {fileID: 88205667}
+  - {fileID: 1178072057}
+  - {fileID: 1655378184}
+  - {fileID: 235602056}
+  puzzleLength: 5
+  puzzleSpeed: 1
+  currentlyDisplayingPattern: 1
   playerWon: 0
 --- !u!4 &982249710
 Transform:
@@ -5015,6 +5044,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1122702159 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 761381335, guid: 463285ecd6702471a909ba810832bf0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1122702158}
 --- !u!1 &1176289067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,6 +5123,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1176289067}
+--- !u!1 &1178072057 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
+  m_PrefabInternal: {fileID: 153658555}
 --- !u!1 &1184430849
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,6 +6011,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1394124291 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
+  m_PrefabInternal: {fileID: 649979710}
 --- !u!4 &1395953589 stripped
 Transform:
   m_PrefabParentObject: {fileID: 436798, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -6098,6 +6140,11 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114031882781898374, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 982249708}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_IsPrefabParent: 0
@@ -6142,12 +6189,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
       propertyPath: m_Name
-      value: Dungeon Orb _BottomRight
+      value: Dungeon Orb_BottomRight
       objectReference: {fileID: 0}
     - target: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114031882781898374, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 982249708}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_IsPrefabParent: 0
@@ -7145,6 +7197,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1611163396}
   m_Mesh: {fileID: 4300008, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &1655378184 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
+  m_PrefabInternal: {fileID: 881029635}
 --- !u!1 &1689831938
 GameObject:
   m_ObjectHideFlags: 0
