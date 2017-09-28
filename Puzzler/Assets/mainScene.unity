@@ -568,8 +568,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 88205670}
-          m_MethodName: patternLightUp
-          m_Mode: 4
+          m_MethodName: gazeLightUp
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4104,6 +4104,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &821501301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 821501303}
+  - component: {fileID: 821501302}
+  m_Layer: 0
+  m_Name: failAudioHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &821501302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821501301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  listenerDirectivityAlpha: 0
+  listenerDirectivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  sourceClip: {fileID: 8300000, guid: aa32a5dd427db457dab94dcaf04c61d6, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceSpatialBlend: 1
+  sourceDopplerLevel: 1
+  sourceSpread: 0
+  sourceVolume: 1
+  sourceRolloffMode: 0
+  sourceMaxDistance: 500
+  sourceMinDistance: 1
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
+--- !u!4 &821501303
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821501301}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 6.0789986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &822959874
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,13 +5004,14 @@ MonoBehaviour:
   startPoint: {fileID: 2087192248}
   playPoint: {fileID: 1753882141}
   restartPoint: {fileID: 439042361}
+  failAudioHolder: {fileID: 821501301}
   puzzleSpheres:
   - {fileID: 1394124291}
   - {fileID: 88205667}
   - {fileID: 1178072057}
   - {fileID: 1655378184}
   - {fileID: 235602056}
-  puzzleLength: 2
+  puzzleLength: 5
   puzzleSpeed: 1
   currentlyDisplayingPattern: 1
   playerWon: 0
