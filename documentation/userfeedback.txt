@@ -1,0 +1,14 @@
+User Feedback:
+- Environment reminds user of a dungeon in Elder Scrolls or a very old Doom game.
+- The environment is looks noticeably blocky, especially the components that are placed together. 
+- Scale and height are acceptable and comfortably at eye level with user.
+- Individual componenets are very well detailed graphically. 
+- No motion sickness or dizziness from experience. 
+- Size of the room is just right and doesn't induce claustrophobia.
+- There should be something beyond the door instead of a blank horizon.
+- The floating orbs are cool.
+- Lights are not too intense or bright and meld well with the environment.
+
+Findings:
+- Should correct the placement of various assets so that they look naturally connected.
+- The gate should show another room or be sealed with a closed door, such that the blank horizon is hidden from the user. 

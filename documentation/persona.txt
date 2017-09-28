@@ -1,0 +1,6 @@
+Age: 28
+Occupation: Business Strategist
+Name: Shannon Heirenbach
+A quote: "I’m always on the lookout for anything experimental or new because they hold so much potential for the future."
+Persona Bio: Shannon has an active lifestyle and maintains a good work life balance. She attends various startup meetups to talk and discover cool ideas. She has recently picked up VR due to its potential applications in human resource development.
+VR Experience Level: Beginner
