@@ -19,6 +19,7 @@ public class lightUp : MonoBehaviour {
 	
 	}
 	public void patternLightUp(float duration) { //The lightup behavior when displaying the pattern
+		this.GetComponent<GvrAudioSource> ().pitch = .25f;
 		StartCoroutine(lightFor(duration));
 	}
 
@@ -34,7 +35,6 @@ public class lightUp : MonoBehaviour {
 	}
 	public void playerSelection() {
 		gameLogic.GetComponent<GameLogic>().playerSelection(this.gameObject);
-		this.GetComponent<GvrAudioSource>().Play();
 	}
 	public void aestheticReset() {
 		this.GetComponent<MeshRenderer>().material = defaultMaterial; //Revert to the default material

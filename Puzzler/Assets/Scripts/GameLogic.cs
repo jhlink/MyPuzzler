@@ -20,6 +20,11 @@ public class GameLogic : MonoBehaviour {
 
 	private int currentSolveIndex = 0; //Temporary variable for storing the index that the player is solving for in the pattern.
 
+	// This variable provides status codes about the game. 
+	//	-1 -- The user choose incorrectly
+	//	1  -- The user choose correctly
+	//  0  -- The user has not chosen at all
+	private int gameProgressState = 0; 
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +39,7 @@ public class GameLogic : MonoBehaviour {
 
 
 	public void playerSelection(GameObject sphere) {
+		gameProgressState = 0;
 		if(playerWon != true) { //If the player hasn't won yet
 			int selectedIndex=0;
 			//Get the index of the selected object
@@ -44,6 +50,11 @@ public class GameLogic : MonoBehaviour {
 				}
 			}
 			solutionCheck (selectedIndex);//Check if it's correct
+			if (gameProgressState == 1) {
+				GvrAudioSource sphereAudio = sphere.GetComponent<GvrAudioSource> ();
+				sphereAudio.pitch = 1f;
+				sphereAudio.Play ();
+			}
 		}
 	}
 
@@ -54,8 +65,10 @@ public class GameLogic : MonoBehaviour {
 			if (currentSolveIndex >= puzzleLength) {
 				puzzleSuccess ();
 			}
+			gameProgressState = 1;
 		} else {
 			puzzleFailure ();
+			gameProgressState = -1;
 		}
 
 	}
