@@ -516,13 +516,13 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 0.5
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
   sourceLoop: 0
   sourceMute: 0
-  sourcePitch: 1
+  sourcePitch: 0.25
   sourcePriority: 128
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
@@ -1164,13 +1164,13 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 0.5
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
   sourceLoop: 0
   sourceMute: 0
-  sourcePitch: 1
+  sourcePitch: 0.25
   sourcePriority: 128
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
@@ -4136,7 +4136,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: -7
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: aa32a5dd427db457dab94dcaf04c61d6, type: 3}
@@ -5441,13 +5441,13 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 0.5
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
   sourceLoop: 0
   sourceMute: 0
-  sourcePitch: 1
+  sourcePitch: 0.25
   sourcePriority: 128
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
@@ -6594,13 +6594,13 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 0.5
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
   sourceLoop: 0
   sourceMute: 0
-  sourcePitch: 1
+  sourcePitch: 0.25
   sourcePriority: 128
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
@@ -7806,13 +7806,13 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 0
+  gainDb: 0.5
   occlusionEnabled: 0
   playOnAwake: 0
   sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
   sourceLoop: 0
   sourceMute: 0
-  sourcePitch: 1
+  sourcePitch: 0.25
   sourcePriority: 128
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
@@ -8489,7 +8489,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0.245
   listenerDirectivitySharpness: 1.54
-  gainDb: 0
+  gainDb: -2
   occlusionEnabled: 1
   playOnAwake: 1
   sourceClip: {fileID: 8300000, guid: c8ceb79bd39904b7fa834bd108e6e47e, type: 3}
@@ -8499,8 +8499,8 @@ MonoBehaviour:
   sourcePriority: 150
   sourceSpatialBlend: 1
   sourceDopplerLevel: 0.55
-  sourceSpread: 180
-  sourceVolume: 0.6
+  sourceSpread: 270
+  sourceVolume: 0.5
   sourceRolloffMode: 0
   sourceMaxDistance: 3
   sourceMinDistance: 1
